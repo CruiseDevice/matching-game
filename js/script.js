@@ -2,12 +2,20 @@ console.log("test");
 var numberOfFaces = 5;
 var theLeftSide = document.getElementById("leftSide");
 
+<<<<<<< HEAD
 var theRightSide = document.getElementById("rightSide");
 
 //this points to the body
 var theBody = document.getElementsByTagName("body")[0];
 
 
+=======
+<<<<<<< HEAD
+var theRightSide = document.getElementById("rightSide");
+
+=======
+>>>>>>> 39c5cb6e25165b2b7749beb627f30bd5d4e5e4ca
+>>>>>>> 018cfd22e6f92a6399c2a8507a306d1db58db402
 function generateFaces() {
     for (i = 0; i < numberOfFaces; ++ i) {
         elem_img = document.createElement("img");
@@ -16,6 +24,7 @@ function generateFaces() {
         elem_img.style.left = Math.floor(Math.random() * 401) + "px";
         theLeftSide.appendChild(elem_img);
     }
+<<<<<<< HEAD
     leftSideImages = theLeftSide.cloneNode(true);
     leftSideImages.removeChild(leftSideImages.lastChild);
     theRightSide.appendChild(leftSideImages);
@@ -58,3 +67,13 @@ function generateFaces() {
 }
 generateFaces();
 
+=======
+<<<<<<< HEAD
+    leftSideImages = theLeftSide.cloneNode(true);
+    leftSideImages.removeChild(leftSideImages.lastChild);
+    theRightSide.appendChild(leftSideImages);
+=======
+>>>>>>> 39c5cb6e25165b2b7749beb627f30bd5d4e5e4ca
+}
+generateFaces();
+>>>>>>> 018cfd22e6f92a6399c2a8507a306d1db58db402
