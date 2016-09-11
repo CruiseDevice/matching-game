@@ -10,3 +10,11 @@ div {
     left: 500px;
     border-left: 1px solid black;
 }
+body{
+	background:url("../img/s.jpg")no-repeat center center fixed;
+	padding-top:10px;
+	position:fixed;
+	left:0;
+	right:0;
+	z-index: 1;
+}
